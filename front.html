@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="title">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>    
+</head>
+<body class="body">
+  <div class="title">
+  <center><h1>Lists To Do</h1></center>
+    <hr/>
+  </div>
+  <div >
+    <p>List of Tasks to be added and remove</p>
+            <label class="add"><input type="text" class="text" id="List" placeholder="Enter a task"></label>
+          <label><button onclick="add()">Add task</button></label> 
+          <label><button onclick="cleartext()">clear</button></label> 
+          <p>List to do:</p>
+        </div>
+        <div id ="textcontainer"></div>
+        <button onclick="localStorage.clear()">clear all task </button>
+</body>
+</html>
